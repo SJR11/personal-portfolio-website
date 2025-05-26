@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+<!-- -->
+    <header class="header">
+
+      <a href="#home" class="logo">
+        Khadka <span>Srijan</span>
+      </a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+     
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#skills">Skills</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="gradient-btn">Contact Me</button>
+
+    </header>
+<!-- Home -->
+    <section class="home" id="home">
+        <div class="home-content">
+          <h1>Hi, It's <span>Srijan</span></h1>
+          <h3>
+            I'm an <span>Electronics Engineer</span>
+          </h3>
+          <p>Passionate about building robots, automating systems, and solving real-world challenges through embedded design, AI, and innovation.</p>
+         
+          <div class="social-icons">
+            <a href="https://github.com/SJR11" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/srijan-khadka-46a219210/" target="_blank">
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+
+            <a href="https://www.facebook.com/K.Srijan.11/" target="_blank">
+              <i class="bx bxl-facebook-circle"></i>
+            </a>
+         </div> 
+
+         <div class="btn-group">
+          <a href="/pdfs/Resume-Srijan.pdf" target="_blank" class="btn">Hire</a>
+          <a href="#contact" class="btn">Contact</a>
+         </div>
+        <p class="quote"><span>Engineering Ideas Into Reality</span></p>
+        </div>
+
+        <div class="home-img">
+          <img src="/images/sjr.jpg" alt="">
+        </div>
+    
+    </section>
+<!-- About -->
+    <section class="about" id="about">
+      
+      <div class="about-img">
+        <img src="/images/sjr.jpg" alt="">
+      </div>
+
+      <div class="about-content">
+        <h2>About <span>Me</span></h2>
+<p>
+    👋 I'm <strong>Srijan Khadka</strong>, an Electronics, Communication & Information Engineer based in Nepal passionate about building intelligent machines that solve real-world problems. From crafting circuits to controlling robots, I love turning ideas into working systems.
+  </p>
+
+  <p>
+    🤖 I enjoy sharing knowledge — mentoring junior teams, hosting workshops, and leading technical training sessions. I believe that great engineering is about building together, failing fast, and improving constantly.
+  </p>
+
+  <p>
+    🚀 I’m currently exploring advanced robotics, computer vision, and AI integration to push my capabilities even further.
+  </p>
+  
+        <a href="/pdfs/Resume-Srijan.pdf" target="_blank" class="btn">Download Resume</a>
+      </div>
+
+    </section>
+
+<!-- Projects -->    
+    <section class="projects" id="projects">
+
+      <h2 class="heading">Projects</h2>
+
+      <div class="projects-box">
+        <div class="project-card">
+          <img src="/images/majorB.jpg" alt="">
+          <h3>Waste Segregation</h3>
+          <p>This project uses deep learning and robotics to automate waste segregation. Waste is transported via a conveyor, detected in real-time using YOLO, and sorted by a robotic arm controlled with Arduino and Raspberry Pi for efficient recycling.</p>
+          <a href="projects/waste-segregation.html" class="btn">Review Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="/images/minorB.jpg" alt="">
+          <h3>Surveillance Rover</h3>
+          <p>This project features a smart surveillance rover for remote monitoring. Equipped with a camera and sensors, it streams live video and detects obstacles in real-time. Wireless control enhances security and awareness in hard-to-reach areas.
+          <a href="projects/surveillance-rover.html" class="btn">Review Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="/images/studentfestB.jpg" alt="">
+          <h3>Battle Robot</h3>
+          <p>This project showcases a battle robot built for Robo War competitions. Designed with a durable chassis and powerful motors, it is remotely controlled to perform aggressive maneuvers, withstand impact, and dominate in combat arenas.</p>
+          <a href="projects/battle-robot.html" class="btn">Review Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="/images/kathfestA.jpg" alt="">
+          <h3>Robo Race</h3>
+          <p>An RF-controlled high-speed robot designed for racing competitions. It navigates complex tracks with precision using onboard sensors and optimized control for agility and speed.</p>
+          <a href="projects/robo-race.html" class="btn">Review Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="/images/locus2023A.jpg" alt="">
+          <h3>Robo Sumo</h3>
+          <p>This project features a powerful sumo robot built for pushing opponents out of the ring. With torque-rich motors and tactical sensor input, it detects and attacks rivals while staying within the arena boundaries.</p>
+          <a href="projects/robo-sumo.html" class="btn">Review Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="/images/chitwanB.jpg" alt="">
+          <h3>Robo Soccer</h3>
+          <p>A dynamic soccer-playing robot designed for agility, teamwork, and quick response. Controlled manually, it chases, dribbles, and kicks the ball, showcasing real-time strategy and movement in robotic soccer matches.
+          </p>
+          <a href="projects/robo-soccer.html" class="btn">Review Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="/images/bombayA.jpg" alt="">
+          <h3>Cozmo Clench</h3>
+          <p>Cozmo Clench is a robotics competition organized by Techfest, IIT Bombay, where teams build gripper bots to complete pick-and-place tasks on an obstacle course. It serves as a prestigious platform for showcasing precision, innovation, and engineering skills in robotics.
+          </p>
+          <a href="projects/cozmo-clench.html" class="btn">Review Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="/images/pop.jpg" alt="">
+          <h3>Robo Pop</h3>
+          <p>RoboPop is a dynamic robotics competition where participants design and operate robots to pop opponents' balloons in a head-to-head arena battle. This event tests engineering creativity, strategic control, and real-time maneuvering skills, offering an exciting platform for robotics enthusiasts to showcase their talents.</p> 
+          <a href="projects/robo-pop.html" class="btn">Review Project</a>
+        </div>
+
+        <div class="project-card">
+          <img src="/images/linefollower.jpg" alt="">
+          <h3>Line Follower</h3>
+          <p>Line Follower is a robotics competition where autonomous robots are programmed to detect and follow a specific path, usually marked by a black or white line on the ground. The challenge tests the robot’s precision, speed, sensor integration, and algorithmic efficiency in navigating curves, intersections, and obstacles.
+          </p>
+          <a href="projects/line-follower.html" class="btn">Review Project</a>
+        </div>
+
+      </div>
+
+    </section>
+
+<!-- Achievements -->
+<section class="achievements" id="achievements">
+  <h2 class="heading">Achievements</h2>
+  
+  <div class="achievement-stats" id="stats">
+  <div class="stat-box">
+    <h3><span class="stat-number">35+</span></h3>
+    <p>Robotics Events Participated</p>
+  </div>
+    <div class="stat-box">
+    <h3><span class="stat-number">55+</span></h3>
+    <p>Titles Achieved</p>
+  </div>
+  <div class="stat-box">
+    <h3><span class="stat-number">7+</span></h3>
+    <p>Robots Built</p>
+  </div>
+    <div class="stat-box">
+    <h3><span class="stat-number">2</span></h3>
+    <p>Academic Projects Built</p>
+  </div>
+    <div class="stat-box">
+    <h3><span class="stat-number">300+</span></h3>
+    <p>Students Trained</p>
+  </div>
+</div>
+<p class="quote">
+  <a href="https://www.facebook.com/TheBotMinds" target="_blank">
+    <span>Founded The BotMinds Robotics Team</span>
+  </a>
+</p>
+
+  
+  <h3 class="subheading"><span>International Competitions</span></h3>
+
+  <div class="achievements-box">
+
+    <!-- Techfest IIT Bombay -->
+    <div class="achievements-card">
+        <img src="/images/bombayC.jpg" alt="Techfest IIT Bombay" />
+        <h3>Techfest IIT Bombay 2022</h3>
+        <p>
+          Participated in the international Cozmo Clench event. Our team secured a top 10 rank among international contenders,
+          demonstrating robotic precision, speed, and gripping mechanism at Techfest IIT Bombay.
+        </p>
+        <a href="/achievements/bombay.html" class="btn">See More</a>
+    </div>
+
+    <!-- Celesta IIT Patna -->
+    <div class="achievements-card">
+        <img src="/images/patnaD.jpg" alt="CELESTA 2024 IIT Patna" />
+        <h3>CELESTA 2024 – IIT Patna</h3>
+        <p>
+          Winner and 2nd Runner Up in Robo Soccer at Celesta 2024. Competing with top national and international teams,
+          our strategy-driven bots stood out for their agility and coordination.
+        </p>
+        <a href="/achievements/patna.html" class="btn">See More</a>
+    </div>
+  </div>
+
+  <h3 class="subheading"><span>Overall achievements in Robotics Competitions</span></h3>
+
+  <div class="achievement-table-wrapper" style="min-height: 600px; overflow-x:auto;">
+    <table class="achievement-table">
+      <thead>
+        <tr>
+          <th>S.N</th>
+          <th>Organizer</th>
+          <th>Event</th>
+          <th>Date</th>
+          <th>Title Achieved</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr data-img="images/cozmozonalA.jpg">
+          <td>1</td>
+          <td>Zonal selection of Techfest IIT Bombay</td>
+          <td>Cozmo Clench</td>
+          <td>September 2022</td>
+          <td>2nd Runner Up</td>
+          <td><a href="achievements/a1.html">View</a></td>
+        </tr>
+        <tr data-img="images/bombayC.jpg">
+          <td>2</td>
+          <td>Techfest 2022, IIT Bombay</td>
+          <td>Cozmo Clench</td>
+          <td>December 2022</td>
+          <td>Top 10 among international participants</td>
+          <td><a href="achievements/a2.html">View</a></td>
+        </tr>
+        <tr data-img="images/locus2023A.jpg">
+          <td>3</td>
+          <td>LOCUS 2023, Pulchowk</td>
+          <td>Robo War</td>
+          <td>February 2023</td>
+          <td>2nd Runner Up</td>
+          <td><a href="achievements/a3.html">View</a></td>
+        </tr>
+        <tr data-img="images/khwopaA.jpg">
+          <td>4</td>
+          <td>Khwopa Engineering College</td>
+          <td>Robo Soccer</td>
+          <td>April 2023</td>
+          <td>Winner</td>
+          <td><a href="achievements/a4.html">View</a></td>
+        </tr>
+        <tr data-img="images/thapathaliA.jpg">
+          <td>5</td>
+          <td>RAC, Thapathali Engineering Campus</td>
+          <td>Robo Race</td>
+          <td>August 2023</td>
+          <td>Winner</td>
+          <td><a href="achievements/a5.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/aarambhaA.jpg">
+          <td>6</td>
+          <td>Technorian – Advanced College of Engineering</td>
+          <td>Robo Race</td>
+          <td>December 2023</td>
+          <td>Winner & 2nd Runner Up</td>
+          <td><a href="achievements/a6.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/ironA.jpg">
+          <td>7</td>
+          <td>Iron Cup – Engineers Vlogs</td>
+          <td>Robo Soccer</td>
+          <td>December 2023</td>
+          <td>Winner</td>
+          <td><a href="achievements/a7.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/sagarmathaA.jpg">
+          <td>8</td>
+          <td>Sagarmatha Techfest</td>
+          <td>Robo Soccer</td>
+          <td>December 2023</td>
+          <td>1st Runner Up</td>
+          <td><a href="achievements/a8.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/cniyefA.jpg">
+          <td>9</td>
+          <td>Startup Fest – RAN</td>
+          <td>Robo Soccer</td>
+          <td>January 2024</td>
+          <td>1st Runner Up</td>
+          <td><a href="achievements/a9.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/chitwanC.jpg">
+          <td>10</td>
+          <td>United Tech Fusion</td>
+          <td>Robo Soccer</td>
+          <td>January 2024</td>
+          <td>Winner & 1st Runner Up</td>
+          <td><a href="achievements/a10.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/kathfestC.jpg">
+          <td>11</td>
+          <td>Kathfest 2.0 – Kathford College</td>
+          <td>Robo Soccer, Race, War</td>
+          <td>January 2024</td>
+          <td>1st & 2nd Runner Up, Royal Rumble Winner</td>
+          <td><a href="achievements/a11.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/locus2024A.jpg">
+          <td>12</td>
+          <td>LOCUS 2024, Pulchowk</td>
+          <td>Robo War, Pop, Soccer</td>
+          <td>February 2024</td>
+          <td>Winner ×2, 1st Runner Up</td>
+          <td><a href="achievements/a12.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/titansC.jpg">
+          <td>13</td>
+          <td>Battle of Titans – NSU</td>
+          <td>Robo Soccer</td>
+          <td>February 2024</td>
+          <td>Winner</td>
+          <td><a href="achievements/a13.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/mechtrix2080A.jpg">
+          <td>14</td>
+          <td>Mechtrix – SOMAES Pulchowk</td>
+          <td>Robo Soccer, Race</td>
+          <td>February 2024</td>
+          <td>1st Runner Up ×2</td>
+          <td><a href="achievements/a14.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/canA.jpg">
+          <td>15</td>
+          <td>CAN Infotech – Engineers Vlogs</td>
+          <td>Robo Soccer</td>
+          <td>March 2024</td>
+          <td>1st & 2nd Runner Up</td>
+          <td><a href="achievements/a15.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/yantraB.jpg">
+          <td>16</td>
+          <td>YANTRA 9.0 – RAN</td>
+          <td>Robo Soccer</td>
+          <td>March 2024</td>
+          <td>Winner</td>
+          <td><a href="achievements/a16.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/kec2080A.jpg">
+          <td>17</td>
+          <td>KEC Lite – Kantipur Engineering College</td>
+          <td>Robo War, Soccer</td>
+          <td>March 2024</td>
+          <td>Winner, 1st Runner Up</td>
+          <td><a href="achievements/a17.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/eecA.jpg">
+          <td>18</td>
+          <td>Aarohan – Everest Engineering College</td>
+          <td>Robo Sumo, Soccer</td>
+          <td>July 2024</td>
+          <td>1st Runner Up ×2</td>
+          <td><a href="achievements/a18.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/softwaricaA.jpg">
+          <td>19</td>
+          <td>Tech-X – Softwarica</td>
+          <td>Robo War</td>
+          <td>August 2024</td>
+          <td>2nd Runner Up</td>
+          <td><a href="achievements/a19.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/patnaD.jpg">
+          <td>20</td>
+          <td>Celesta 2024 – IIT Patna</td>
+          <td>Robo Soccer</td>
+          <td>November 2024</td>
+          <td>Winner, 2nd Runner Up</td>
+          <td><a href="achievements/a20.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/aarambhaA.jpg">
+          <td>21</td>
+          <td>Aarambha 2.0 – Advanced College of Engineering</td>
+          <td>Robo Sumo, Pop, Race</td>
+          <td>December 2024</td>
+          <td>Winner & 1st Runner Up in Sumo, Winner in Pop, 2nd Runner Up in Race</td>
+          <td><a href="achievements/a21.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/orbitJ.png">
+          <td>22</td>
+          <td>Orbit 2.0 – Engineers Vlogs</td>
+          <td>Robo Soccer, War</td>
+          <td>December 2024</td>
+          <td>Winner ×2</td>
+          <td><a href="achievements/a22html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/khwopaWarA.jpg">
+          <td>23</td>
+          <td>Khwopa Robo Sumo</td>
+          <td>Robo Sumo</td>
+          <td>December 2024</td>
+          <td>Winner & 1st Runner Up</td>
+          <td><a href="achievements/a23.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/kec2081A.jpg">
+          <td>24</td>
+          <td>KEC Lite</td>
+          <td>Robo Soccer, Sumo, Race</td>
+          <td>January 2025</td>
+          <td>Winner in Soccer, Winner & 1st Runner Up in Sumo and Race</td>
+          <td><a href="achievements/a24.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/dristiA.jpg">
+          <td>25</td>
+          <td>Dristi – KEC Kalimati</td>
+          <td>Robo Soccer, Sumo, Race</td>
+          <td>January 2025</td>
+          <td>Winner in Soccer, Winner & 1st Runner Up in Sumo & Race</td>
+          <td><a href="achievements/a25.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/mechtrix2081A.jpg">
+          <td>26</td>
+          <td>Mechtrix – Pulchowk</td>
+          <td>Robo Soccer</td>
+          <td>February 2025</td>
+          <td>Winner</td>
+          <td><a href="achievements/a26.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/eepexA.jpg">
+          <td>27</td>
+          <td>EEPEX – KU</td>
+          <td>Robo Soccer, Sumo</td>
+          <td>February 2025</td>
+          <td>Winner & 1st Runner Up in Soccer, Winner in Sumo</td>
+          <td><a href="achievements/a27.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/locus2025A.jpg">
+          <td>28</td>
+          <td>LOCUS – Pulchowk</td>
+          <td>Robo Soccer, Pop, War</td>
+          <td>February 2025</td>
+          <td>1st Runner Up in all events</td>
+          <td><a href="achievements/a28.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/kathfestB.jpg">
+          <td>29</td>
+          <td>Yathartha – Thapathali</td>
+          <td>Robo Race</td>
+          <td>February 2025</td>
+          <td>Winner</td>
+          <td><a href="achievements/a29.html">View</a></td>
+        </tr>
+        <tr class="hidden-row" data-img="images/ironB.jpg">
+          <td>30</td>
+          <td>Nepal Technofest</td>
+          <td>1v1 Robo Soccer</td>
+          <td>March 2025</td>
+          <td>1st Runner Up</td>
+          <td><a href="achievements/a30.html">View</a></td>
+        </tr>
+        
+        
+      </tbody>
+    </table>
+
+    <div class="timeline-load" style="text-align: center; margin-top: 1.5rem;">
+      <button id="see-more-btn" class="btn">See More</button>
+      <button id="see-less-btn" class="btn" style="display:none;">See Less</button>
+    </div>
+    
+    
+  </div>
+<!-- Hover Preview Image -->
+<div id="table-hover-preview">
+  <img id="table-preview-img" src="" alt="Preview" />
+</div>
+</section>
+
+<section class="skills" id="skills">
+  <h2 class="heading">Technical <span>Skills</span></h2>
+
+  <div class="skills-minimal-grid">
+
+    <div class="skill-minimal"><i class='bx bxl-python'></i><span>Python</span></div>
+    <div class="skill-minimal"><i class='bx bxl-c-plus-plus'></i><span>C/C++</span></div>
+    <div class="skill-minimal"><i class='bx bxl-javascript'></i><span>JavaScript</span></div>
+    <div class="skill-minimal"><i class='bx bxl-html5'></i><span>HTML</span></div>
+    <div class="skill-minimal"><i class='bx bxl-css3'></i><span>CSS</span></div>
+    <div class="skill-minimal"><i class='bx bxl-tailwind-css'></i><span>Tailwind CSS</span></div>
+    <div class="skill-minimal"><i class='bx bx-target-lock'></i><span>YOLO</span></div>
+    <div class="skill-minimal"><i class='bx bx-camera'></i><span>OpenCV</span></div>
+    <div class="skill-minimal"><i class='bx bx-line-chart'></i><span>Scikit-learn</span></div>
+    <div class="skill-minimal"><i class='bx bxl-aws'></i><span>AWS</span></div>
+    <div class="skill-minimal"><i class='bx bxl-postgresql'></i><span>PostgreSQL</span></div>
+    <div class="skill-minimal"><i class='bxl bx-mysql'></i><span>MySQL</span></div>
+    <div class="skill-minimal"><i class='bx bx-chip'></i><span>Arduino Uno</span></div>
+    <div class="skill-minimal"><i class='bx bx-wifi'></i><span>ESP32</span></div>
+    <div class="skill-minimal"><i class='bx bx-desktop'></i><span>Raspberry Pi</span></div>
+    <div class="skill-minimal"><i class='bx bx-cube'></i><span>KiCAD</span></div>
+    <div class="skill-minimal"><i class='bx bx-shape-polygon'></i><span>Tinkercad</span></div>
+    <div class="skill-minimal"><i class='bx bx-microchip'></i><span>Proteus</span></div>
+  
+  </div>
+</section>
+
+
+
+<!--Gallery-->
+<section class="gallery-section" id="gallery">
+  <h2 class="heading">Gallery</h2>
+
+  <div class="gallery-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="event">Events</button>
+    <button class="filter-btn" data-filter="prize">Prizes</button>
+    <button class="filter-btn" data-filter="training">Training</button>
+    <button class="filter-btn" data-filter="project">Project</button>
+    <button class="filter-btn" data-filter="featured">Featured</button>
+  </div>
+
+  <div class="gallery-grid">
+
+<!-- Event Video -->
+<div class="gallery-item event">
+  <div class="youtube-container">
+    <iframe
+      src="https://www.youtube.com/embed/J649yt6X1jQ?si=vA9n8gQt2Gp1Efum"
+      title="Robo War Final Match"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+  <div class="overlay">Robo War Final Match</div>
+</div>
+
+<div class="gallery-item event">
+  <div class="youtube-container">
+    <iframe
+      src="https://www.youtube.com/embed/DLtiQSiFqmg?si=1q-xpeYzbmHFf-ch"
+      title="BotMinds Vs Minions"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+  <div class="overlay">BotMinds Vs Minions</div>
+</div>
+
+<div class="gallery-item event">
+  <div class="youtube-container">
+    <iframe
+      src="https://www.youtube.com/embed/f510Fn3s2BI?si=dlcJ-vP_H-sk7dww"
+      title="BotMinds Vs Naksatra"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+  <div class="overlay">BotMinds Vs Naksatra</div>
+</div>
+
+<div class="gallery-item event">
+  <div class="youtube-container">
+    <iframe
+      src="https://www.youtube.com/embed/0aCPml06F2s?si=aJhwuEd2OctJyUpb"
+      title="BotMinds Vs Maqsood"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+  <div class="overlay">BotMinds Vs Maqsood</div>
+</div>
+
+<div class="gallery-item event">
+  <div class="youtube-container">
+    <iframe
+      src="https://www.youtube.com/embed/zqenQELwybU?si=xPOTp6UUgLbuQXgg"
+      title="BotMinds Vs Destructor"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+  <div class="overlay">BotMinds Vs Destructor</div>
+</div>
+
+<div class="gallery-item event">
+  <div class="youtube-container">
+    <iframe
+      src="https://www.youtube.com/embed/4FbuAyrtT-A?si=9Ns2NbadyiLlApyo"
+      title="BotMinds Vs Johnwick"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+  <div class="overlay">BotMinds Vs Johnwick</div>
+</div>
+
+<div class="gallery-item event">
+  <div class="youtube-container">
+    <iframe
+      src="https://www.youtube.com/embed/8zJ073RzbAw?si=FGK3vKpuj2w4EIz9"
+      title="BotMinds Vs Gladiator"
+      frameborder="0"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+  <div class="overlay">BotMinds Vs Gladiator</div>
+</div>
+
+    <!-- Project Video -->
+    <div class="gallery-item project">
+      <video controls muted>
+        <source src="videos/PaperPlastic.mp4" type="video/mp4" />
+      </video>
+      <div class="overlay">Waste Segregation Project</div>
+    </div>
+        <div class="gallery-item project">
+      <video controls muted>
+        <source src="videos/glass.mp4" type="video/mp4" />
+      </video>
+      <div class="overlay">Waste Segregation Project</div>
+    </div>
+        <div class="gallery-item project">
+      <video controls muted>
+        <source src="videos/metal.mp4" type="video/mp4" />
+      </video>
+      <div class="overlay">Waste Segregation Project</div>
+    </div>
+
+    <!-- Event Image -->
+<!--
+  <div class="gallery-item event">
+  <div class="fb-post-container">
+    <iframe
+      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FTheBotMinds%2Fposts%2Fpfbid027dDkqPzADK7Rfu67JpBWAqZF9WXYxZoubs4J9vvz6EB1A6b5xwRQmQDCEu4cfWcPl&show_text=true&width=500"
+      width="100%"
+      height="500"
+      style="border:none;overflow:hidden"
+      scrolling="no"
+      frameborder="0"
+      allowfullscreen="true"
+      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+    </iframe>
+  </div>
+  <div class="overlay">Facebook Post – Event Moment</div>
+</div>
+-->
+    <div class="gallery-item event">
+      <img src="images/bombayE.jpg" alt="IIT Bombay">
+      <div class="overlay">At IIT Bombay</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/bombayB.jpg" alt="IIT Bombay">
+      <div class="overlay">At IIT Bombay</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/bombayC.jpg" alt="IIT Bombay">
+      <div class="overlay">At IIT Bombay</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/eepexA.jpg" alt="EEPEX">
+      <div class="overlay">At EEPEX KU</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/ironA.jpg" alt="Iron Cup">
+      <div class="overlay">At Iron Cup</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/kathfestC.jpg" alt="Kathfest">
+      <div class="overlay">At kathfest</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/locus2023B.jpg" alt="LOCUS 2023">
+      <div class="overlay">At LOCUS 2023, IOE Pulchowk Campus</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/locus2024A.jpg" alt="LOCUS 2024">
+      <div class="overlay">At LOCUS 2024, IOE Pulchowk Campus</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/locus2025A.jpg" alt="LOCUS 2025">
+      <div class="overlay">At LOCUS 2025, IOE Pulchowk Campus</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/mechtrix2081A.jpg" alt="MEchtrix">
+      <div class="overlay">At Mechtrix 2081, IOE Pulchowk Campus</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/kec2080A.jpg" alt="KEC">
+      <div class="overlay">KEC Lite</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/orbitB.jpg" alt="Orbit 2.0">
+      <div class="overlay">Orbit Engineering Expo</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/orbitC.jpg" alt="Orbit 2.0">
+      <div class="overlay">Orbit Engineering Expo</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/orbitD.jpg" alt="Orbit 2.0">
+      <div class="overlay">Orbit Engineering Expo</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/orbitE.jpg" alt="Orbit 2.0">
+      <div class="overlay">Orbit Engineering Expo</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/orbitF.jpg" alt="Orbit 2.0">
+      <div class="overlay">Orbit Engineering Expo</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/orbitG.jpg" alt="Orbit 2.0">
+      <div class="overlay">Orbit Engineering Expo</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/orbitH.jpg" alt="Orbit 2.0">
+      <div class="overlay">Orbit Engineering Expo</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/orbitI.jpg" alt="Orbit 2.0">
+      <div class="overlay">Orbit Engineering Expo</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/patnaC.jpg" alt="IIT Patna">
+      <div class="overlay">At IIT Patna</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/patnaE.jpg" alt="IIT Patna">
+      <div class="overlay">At IIT Patna</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/sagarmathaA.jpg" alt="Sagarmatha">
+      <div class="overlay">At Sagarmatha Techfest</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/sagarmathaB.jpg" alt="Sagarmatha">
+      <div class="overlay">At Sagarmatha Techfest</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/softwaricaA.jpg" alt="Softwarica">
+      <div class="overlay">At Softwarica- Robo Mania</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/studentfestB.jpg" alt="Studentfest">
+      <div class="overlay">At Student Festival</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/studentfestC.jpg" alt="Studentfest">
+      <div class="overlay">At Student Festival</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/titansA.jpg" alt="Battle of Titans">
+      <div class="overlay">At Robo Soccer</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/titansB.jpg" alt="Battle of Titans">
+      <div class="overlay">At Robo Soccer</div>
+    </div>
+    <div class="gallery-item event">
+      <img src="images/titansD.jpg" alt="Battle of Titans">
+      <div class="overlay">At Robo Soccer</div>
+    </div>
+
+
+    <!-- Training Image -->
+    <div class="gallery-item training">
+      <img src="images/trainingA.jpg" alt="Training Session">
+      <div class="overlay">Robotics Workshop - Training</div>
+    </div>
+    <div class="gallery-item training">
+      <img src="images/trainingB.jpg" alt="Training Session">
+      <div class="overlay">Robotics Workshop - Training</div>
+    </div>
+    <div class="gallery-item training">
+      <img src="images/trainingC.jpg" alt="Training Session">
+      <div class="overlay">Robotics Workshop - Training</div>
+    </div>
+
+
+    <!-- Prizes Image -->
+    <div class="gallery-item  prize">
+      <img src="images/patnaD.jpg" alt="Patna">
+      <div class="overlay">Winner CELESTA 2024 IIT Patna</div>
+    </div>
+    <div class="gallery-item  prize">
+      <img src="images/afterPatnaA.jpg" alt="Patna">
+      <div class="overlay">Victory Celebration</div>
+    </div>
+    <div class="gallery-item prize">
+      <img src="images/yantraD.jpg" alt="Yantra">
+      <div class="overlay">Winner Yantra 9.0</div>
+    </div>
+    <div class="gallery-item prize">
+      <img src="images/chitwanA.jpg" alt="ChitwanA">
+      <div class="overlay">Winner TechFusion</div>
+    </div>
+      <div class="gallery-item prize">
+      <img src="images/chitwanC.jpg" alt="ChitwanC">
+      <div class="overlay">Winner Techfusion</div>
+    </div>
+    <div class="gallery-item prize">
+      <img src="images/cniyefA.jpg" alt="cniyefA">
+      <div class="overlay">1st Runner Up</div>
+    </div>
+        <div class="gallery-item prize">
+      <img src="images/cniyefB.jpg" alt="cniyefB">
+      <div class="overlay">1st Runner Up</div>
+    </div>
+    <div class="gallery-item prize">
+      <img src="images/kec2081A.jpg" alt="KEC">
+      <div class="overlay">Winner KEC Lite</div>
+    </div>
+    <div class="gallery-item prize">
+      <img src="images/khwopaB.jpg" alt="Khwopa">
+      <div class="overlay">Winner at Khwopa Engineering</div>
+    </div>
+    <div class="gallery-item prize">
+      <img src="images/khwopaWarA.jpg" alt="Khwopa">
+      <div class="overlay">Winner at Khwopa Engineering</div>
+    </div>
+        <div class="gallery-item prize">
+      <img src="images/khwopaWarB.jpg" alt="Khwopa">
+      <div class="overlay">Winner at Khwopa Engineering</div>
+    </div>
+    <div class="gallery-item prize">
+      <img src="images/orbitA.jpg" alt="Orbit 2.0">
+      <div class="overlay">Winner at Orbit Engineering Expo</div>
+    </div>
+    <div class="gallery-item prize">
+      <img src="images/orbitJ.png" alt="Orbit 2.0">
+      <div class="overlay">Winner at Orbit Engineering Expo</div>
+    </div>
+    <div class="gallery-item prize">
+      <img src="images/sagarmathaC.jpg" alt="Sagarmatha">
+      <div class="overlay">1st Runner Up at Sagarmatha Tehcfest</div>
+    </div>
+    <div class="gallery-item prize">
+      <img src="images/titansC.jpg" alt="Battle of Titans">
+      <div class="overlay">Winner in RoboSoccer</div>
+    </div>
+
+        <!-- Project Image -->
+  <div class="gallery-item project">
+  <div class="fb-post-container">
+    <iframe
+      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FTheBotMinds%2Fposts%2Fpfbid0Ycf7TC658G6ecEzKFiGXg35nbsuwLhesAcKoHTXVNLZoqhuK8DyQacz9D2viVaXRl&show_text=true&width=500"
+      width="100%"
+      height="500"
+      style="border:none;overflow:hidden"
+      scrolling="no"
+      frameborder="0"
+      allowfullscreen="true"
+      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+    </iframe>
+  </div>
+  <div class="overlay">Facebook Post – Minor Project</div>
+</div>
+
+<div class="gallery-item project">
+  <div class="fb-post-container">
+    <iframe
+      src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FTheBotMinds%2Fposts%2Fpfbid02XahdhB7qhXPyvVhef29Hqc19TtCiBKrP6qF1YemxMcVbHtyk6kKVTydyuyh2yatol&show_text=true&width=500" 
+      width="100%"
+      height="500"
+      style="border:none;overflow:hidden"
+      scrolling="no"
+      frameborder="0"
+      allowfullscreen="true"
+      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+    </iframe>
+  </div>
+  <div class="overlay">Facebook Post – Major Project</div>
+</div>
+
+    <!-- Featured Image -->
+    <div class="gallery-item featured">
+      <img src="images/featuredA.jpg" alt="Academic Project">
+      <div class="overlay">Karobar Daily</div>
+    </div>
+    <div class="gallery-item featured">
+      <img src="images/featuredB.jpg" alt="Academic Project">
+      <div class="overlay">Karobar Newspaper</div>
+    </div>
+    <div class="gallery-item featured">
+      <img src="images/featuredC.jpg" alt="Academic Project">
+      <div class="overlay">The Himalayan Times</div>
+    </div>
+
+
+   
+
+
+
+  </div>
+</section>
+
+
+<!-- Contact -->
+    <section class="contact" id="contact">
+
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#">
+
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+          </div>
+
+          <div class="input-box">
+            <input type="number" placeholder="Phone Number">
+            <input type="text" placeholder="Subject">
+          </div>
+
+        </div>
+
+        <div class="input-group-2">
+          <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+          <input type="submit" value="Send Message" class="btn">
+        </div>
+      
+      </form>
+    </section>
+<!-- Footer -->
+    <footer class="footer">
+
+      <div class="social-icons">
+        <a href="https://github.com/SJR11" target="_blank">
+          <i class="bx bxl-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/srijan-khadka-46a219210/" target="_blank">
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+
+        <a href="https://www.facebook.com/K.Srijan.11/" target="_blank">
+          <i class="bx bxl-facebook-circle"></i>
+        </a>
+     </div> 
+
+     <ul class="list">
+      <li>
+        <a href="#">FAQ</a>
+      </li>
+
+      <li>
+        <a href="#about">About Me</a>
+      </li>
+
+      <li>
+        <a href="#projects">Projects</a>
+      </li>
+
+      <li>
+        <a href="#achievements">Achievements</a>
+      </li>
+
+      <li>
+        <a href="#skills">Skills</a>
+      </li>
+
+      <li>
+        <a href="#gallery">Gallery</a>
+      </li>
+
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+
+     </ul>
+
+     <p class="copyright">
+      © Srijan Khadka | All Rights Reserved
+    </p>
+
+  </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
