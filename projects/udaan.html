@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mission: Project Udaan</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../styles/udaan.css" />
+
+  <!-- Boxicons for icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+<section class="udaan-banner" data-aos="fade-down">
+  <div class="udaan-banner-content">
+    <h1>🚀 Mission: <span>Project Udaan</span></h1>
+    <p>A Journey From Imagination To Innovation</p>
+    <img src="/images/udaanLogo.jpg" alt="Kit">
+  </div>
+</section>
+
+<section class="udaan-mission-cards">
+  <div class="card" data-aos="zoom-in">
+    <i class='bx bx-rocket'></i>
+    <h3>Objective</h3>
+    <p>To bring robotics & innovation to classrooms via custom kits and real-time learning.</p>
+  </div>
+  <div class="card" data-aos="zoom-in" data-aos-delay="150">
+    <i class='bx bxs-school'></i>
+    <h3>Target</h3>
+    <p>Students from rural & urban schools, ages 10–18, with limited access to STEM tools.</p>
+  </div>
+  <div class="card" data-aos="zoom-in" data-aos-delay="300">
+    <i class='bx bx-cube'></i>
+    <h3>Tools</h3>
+    <p>Custom-built robotic kits, lesson plans, and training sessions designed by engineers.</p>
+  </div>
+</section>
+
+<section class="udaan-progress" data-aos="fade-up">
+  <h2>📊 Achievements So Far</h2>
+
+  <div class="counters">
+    <div class="counter-box">
+      <h3><span class="counter" data-target="7">0</span>+</h3>
+      <p>Robots Developed</p>
+    </div>
+    <div class="counter-box">
+      <h3><span class="counter" data-target="5">0</span>+</h3>
+      <p>Schools Reached</p>
+    </div>
+    <div class="counter-box">
+      <h3><span class="counter" data-target="5">0</span>+</h3>
+      <p>Workshops Conducted</p>
+    </div>
+    <div class="counter-box">
+      <h3><span class="counter" data-target="100">0</span>+</h3>
+      <p>Students Trained</p>
+    </div>
+  </div>
+</section>
+
+<section class="udaan-gallery" data-aos="fade-up">
+  <h2>📸 Visuals from the Journey</h2>
+  <div class="gallery-grid">
+    <img src="/images/khotangA.jpg" alt="Kit">
+    <img src="/images/khotangB.jpg" alt="Training">
+    <img src="/images/khotangC.jpg" alt="Team">
+    <!-- <video controls muted>
+      <source src="../videos/udaan-demo.mp4" type="video/mp4">
+    </video> -->
+  </div>
+</section>
+
+<section class="testimonial" data-aos="fade-up">
+  <h2>💬 What Schools Say</h2>
+  <blockquote>
+    “Project Udaan brought real-world tech into our classroom — students were thrilled to build robots and explore!”<br>
+    <span>— MD, Shubham Foundation</span>
+  </blockquote>
+</section>
+
+<section class="udaan-footer">
+  <button class="btn-cert" id="openModal">📄 View Full Report</button>
+  <a href="../index.html#now" class="back-link">← Back to Home</a>
+</section>
+
+<!-- Modal for PDF -->
+<div id="pdfModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe src="../reports/udaan-project-report.pdf"></iframe>
+  </div>
+</div>
+
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init({ duration: 1200 });</script>
+
+<!-- Custom Script -->
+<script>
+  // Counter animation
+  const counters = document.querySelectorAll('.counter');
+  const speed = 100;
+
+  counters.forEach(counter => {
+    const updateCount = () => {
+      const target = +counter.getAttribute('data-target');
+      const count = +counter.innerText;
+      const inc = target / speed;
+
+      if (count < target) {
+        counter.innerText = Math.ceil(count + inc);
+        setTimeout(updateCount, 20);
+      } else {
+        counter.innerText = target;
+      }
+    };
+    updateCount();
+  });
+
+  // PDF Modal
+  const modal = document.getElementById("pdfModal");
+  const btn = document.getElementById("openModal");
+  const span = document.querySelector(".close");
+
+  btn.onclick = () => modal.style.display = "block";
+  span.onclick = () => modal.style.display = "none";
+  window.onclick = (e) => { if (e.target == modal) modal.style.display = "none"; };
+</script>
+
+</body>
+</html>

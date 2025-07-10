@@ -1029,4 +1029,297 @@ section{
 /**/
 
 
+.current-project-box {
+  position: absolute;
+  top: 90%;
+  left: 3%;
+  transform: translateY(-80%);
+  max-width: 370px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 7rem;
+  border-left: 6px solid var(--main-color);
+  padding: 2.5rem;
+  color: var(--text-color);
+  box-shadow: 0 0 20px rgba(234, 88, 12, 0.1);
+  z-index: 10;
+}
+
+.current-heading {
+  font-size: 1.6rem;
+  color: var(--main-color);
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.project-title {
+  font-size: 2rem;
+  color: var(--main-color);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.project-summary {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+}
+
+.project-status {
+  font-size: 1.3rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 1.8rem;
+}
+
+.project-status span {
+  background: greenyellow;
+  color: var(--bg-color);
+  padding: 0.3rem 0.9rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.btn-see-more {
+  display: inline-block;
+  font-size: 1.4rem;
+  padding: 0.6rem 1.5rem;
+  background: var(--main-color);
+  color: var(--bg-color);
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px var(--main-color);
+}
+
+.btn-see-more:hover {
+  background: #fff;
+  color: var(--main-color);
+  box-shadow: 0 0 20px var(--main-color);
+}
+
+/**/
+
+.udaan-banner {
+  background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
+  padding: 6rem 2rem;
+  text-align: center;
+  color: var(--text-color);
+  box-shadow: 0 0 30px rgba(234, 88, 12, 0.1);
+}
+.udaan-banner h1 {
+  font-size: 4.5rem;
+  color: var(--main-color);
+}
+.udaan-banner h1 span {
+  background: var(--main-color);
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  font-size: 5.8rem;
+  color: white;
+}
+.udaan-banner p {
+  font-size: 3.6rem;
+  margin-top: 1.2rem;
+  max-width: 700px;
+  margin-inline: auto;
+  line-height: 1.8;
+}
+
+.udaan-mission-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; /* 🟢 Fix: allows cards to have different height */
+  gap: 4rem;
+  padding: 40rem 2rem;
+  background-color: var(--second-bg-color);
+}
+
+.udaan-mission-cards .card {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  width: 400px; /* or max-width: 300px */
+  box-shadow: 0 0 20px rgba(234, 88, 12, 0.1);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px var(--main-color);
+}
+
+.card i {
+  font-size: 5.5rem;
+  color: var(--main-color);
+  margin-bottom: 1.8rem;
+}
+
+.card h3 {
+  font-size: 4.6rem;
+  color: var(--main-color);
+  margin-bottom: 1.5rem;
+}
+
+.card p {
+  font-size: 2.4rem;
+  color: var(--text-color);
+  margin: 0;
+}
+
+
+.udaan-progress {
+  background-color: var(--bg-color);
+  padding: 40rem 2rem;
+  text-align: center;
+}
+.udaan-progress h2 {
+  color: var(--main-color);
+  font-size: 4.6rem;
+}
+
+.counters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+.counter-box {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 2rem;
+  width: 280px;
+  border-radius: 1.2rem;
+}
+.counter-box h3 {
+  font-size: 5.5rem;
+  color: var(--main-color);
+}
+.counter-box p {
+  font-size: 2.4rem;
+}
+
+.udaan-gallery {
+  background-color: var(--second-bg-color);
+  padding: 4rem 2rem;
+}
+.udaan-gallery h2 {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 4.6rem;
+  margin-bottom: 2rem;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.gallery-grid img,
+.gallery-grid video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(234, 88, 12, 0.2);
+}
+
+.testimonial {
+  background: var(--second-bg-color);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.testimonial h2 {
+  color: var(--main-color);
+  font-size: 4.6rem;
+  margin-bottom: 1.5rem;
+}
+.testimonial blockquote {
+  font-size: 2.6rem;
+  font-style: italic;
+  line-height: 1.8;
+  color: var(--text-color);
+}
+.testimonial span {
+  display: block;
+  margin-top: 1rem;
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.udaan-footer {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: var(--bg-color);
+}
+.btn-cert {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  background: var(--main-color);
+  color: var(--bg-color);
+  border-radius: 2rem;
+  font-weight: 600;
+  box-shadow: 0 0 12px var(--main-color);
+  border: none;
+  cursor: pointer;
+}
+.btn-cert:hover {
+  background: white;
+  color: var(--main-color);
+  box-shadow: 0 0 20px var(--main-color);
+}
+.back-link {
+  display: block;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: var(--main-color);
+  text-decoration: none;
+}
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* PDF Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal-content {
+  margin: 5% auto;
+  background: var(--second-bg-color);
+  padding: 1rem;
+  width: 90%;
+  max-width: 900px;
+  height: 80vh;
+  border-radius: 10px;
+  position: relative;
+}
+.modal-content iframe {
+  width: 100%;
+  height: 100%;
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: var(--main-color);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .counters, .udaan-mission-cards {
+    flex-direction: column;
+  }
+}
 
