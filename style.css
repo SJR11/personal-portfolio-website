@@ -1323,3 +1323,226 @@ section{
   }
 }
 
+/*Blogs CSS*/
+.blogs {
+  background-color: var(--bg-color);
+  padding: 5rem 2rem;
+}
+
+.blogs .heading {
+  font-size: 6rem;
+  text-align: center;
+  color: var(--text-color);
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.blog-subtitle {
+  text-align: center;
+  color: #aaa;
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+.blogs .heading::after {
+  content: '';
+  width: 80px;
+  height: 3px;
+  background: var(--main-color);
+  display: block;
+  margin: 1rem auto 0;
+  box-shadow: 0 0 12px var(--main-color);
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 3rem;
+  place-items: center;
+}
+
+.blog-card {
+  background-color: var(--second-bg-color);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(234, 88, 12, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 450px;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px var(--main-color);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 1.5rem;
+  color: var(--text-color);
+}
+
+.blog-content h3 {
+  font-size: 2.7rem;
+  margin-bottom: 1rem;
+  color: var(--main-color);
+}
+
+.blog-content p {
+  font-size: 2.3rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+.blog-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.2rem;
+}
+
+.read-more {
+  color: var(--main-color);
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.blog-tags {
+  margin-bottom: 1rem;
+}
+
+.blog-tags span {
+  background: rgba(234, 88, 12, 0.1);
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  padding: 0.2rem 0.6rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+}
+
+.blog-button-wrapper {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.blog-btn {
+  background: var(--main-color);
+  color: var(--bg-color);
+  padding: 1rem 2.5rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+  box-shadow: 0 0 15px var(--main-color);
+}
+
+.blog-btn:hover {
+  background: #fff;
+  color: var(--main-color);
+}
+
+/*Robotics_Education Blogs inside*/
+.blog-post {
+  background: var(--bg-color);
+  padding: 5rem 2rem;
+  color: var(--text-color);
+}
+
+.blog-container {
+  max-width: 1000px;
+  margin: auto;
+  background: var(--second-bg-color);
+  padding: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 12px rgba(234, 88, 12, 0.1);
+}
+
+.blog-container h1 {
+  font-size: 4rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+}
+
+.blog-container h2 {
+  font-size: 3rem;
+  margin-top: 2.5rem;
+  color: var(--main-color);
+}
+
+.post-meta {
+  font-size: 1.2rem;
+  color: #aaa;
+  margin-bottom: 2rem;
+}
+
+.feature-img {
+  width: 100%;
+  border-radius: 0.8rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(234, 88, 12, 0.2);
+}
+
+.blog-container p {
+  font-size: 2rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.blog-container li {
+  font-size: 2rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+blockquote {
+  margin: 1.5em 0;
+  padding: 0.3em 1.5em;
+  background-color: #f9f9f9;
+  border-left: 5px solid #4e89ff;
+  font-style: italic;
+  color: #333;
+  font-size: 3rem;
+  line-height: 1;
+  position: relative;
+}
+
+blockquote::before {
+  content: open-quote;
+  font-size: 4rem;
+  color: #4e89ff;
+  position: absolute;
+  left: 15px;
+  top: 5px;
+}
+
+blockquote::after {
+  content: close-quote;
+  font-size: 4rem;
+  color: #4e89ff;
+  position: absolute;
+  right: 15px;
+  bottom: 5px;
+}
+
+
+.back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+.back-link:hover {
+  text-decoration: underline;
+}
