@@ -1241,10 +1241,10 @@ section{
   margin-bottom: 1.5rem;
 }
 .testimonial blockquote {
-  font-size: 2.6rem;
+  font-size: 3.6rem;
   font-style: italic;
   line-height: 1.8;
-  color: var(--text-color);
+  color: blue;
 }
 .testimonial span {
   display: block;
