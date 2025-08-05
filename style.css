@@ -1285,6 +1285,43 @@ section{
   text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+  .current-project-box {
+    position: static;
+    transform: none;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    max-width: 100%;
+    padding: 2rem;
+  }
+
+  .current-heading {
+    font-size: 1.4rem;
+  }
+
+  .project-title {
+    font-size: 1.7rem;
+  }
+
+  .project-summary {
+    font-size: 1.3rem;
+  }
+
+  .project-status {
+    font-size: 1.2rem;
+  }
+
+  .project-status span {
+    font-size: 1.1rem;
+  }
+
+  .btn-see-more {
+    font-size: 1.2rem;
+    padding: 0.5rem 1.3rem;
+  }
+}
+
+
 /* PDF Modal */
 .modal {
   display: none;
