@@ -394,6 +394,17 @@ section{
 }
 
 /*box*/
+.achievement-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.achievements-button:hover{
+  background: darken(var(--main-color), 10%);
+}
+
 .achievement-stats {
   display: flex;
   justify-content: center;
